@@ -35,7 +35,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --base=/fleethub/
+        run: npm run build -- --base=/AGK_1/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
